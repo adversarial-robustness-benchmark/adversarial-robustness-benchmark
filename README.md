@@ -42,6 +42,8 @@ cd benchmark-v2
 python3 cifar_convex_distortion.py --method bim --goal t --distance-metric l_inf --xs PATH_CIFAR_XS --ys PATH_CIFAR_YS --ys-target PATH_CIFAR_YS_TARGETS -- output CIFAR_OUTPUT.npy
 ```
 
+We provide 100 data points of CIFAR-10 in `datasets/CIFAR-10/`. You can set `PATH_CIFAR_XS` as `datasets/CIFAR-10/00000_00100_xs.npy`, `PATH_CIFAR_YS` as `datasets/CIFAR-10/00000_00100_ys.npy`, `PATH_CIFAR_YS_TARGETD` as `datasets/CIFAR-10/00000_00100_ys_target.npy`
+
 ## Reproducing the results on ImageNet dataset
 
 ### benchmark-v1 example
